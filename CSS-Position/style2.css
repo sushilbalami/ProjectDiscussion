@@ -1,0 +1,60 @@
+html {
+  height: 200%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* height: 100%; */
+  /* background-color: black; */
+  /* background-image: linear-gradient(to bottom right, red, yellow);
+  background-repeat: no-repeat; */
+  /* align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column; */
+}
+
+.container-main {
+  position: relative;
+  height: 400px;
+  width: 50%;
+  border: 2px solid black;
+  /* padding: 80px; */
+}
+
+.one {
+  position: absolute;
+  top: 150px;
+  right: 200px;
+  /* right: 20px; */
+  height: 100px;
+  width: 100px;
+  /* color: blue; */
+  background-color: rgb(255, 217, 0);
+}
+
+/*.two {
+  position: absolute;
+  top: 0;
+  right: 10px
+  height: 100px;
+  width: 100px;
+  /* color: blue; */
+  background-color: blueviolet;
+}*/
+
+
+
+
+
+.div-two {
+  display: inline;
+  background-color: brown;
+  color: white;
+}
+
+.span-class {
+  display: block;
+  background-color: rebeccapurple;
+  color: white;
+}

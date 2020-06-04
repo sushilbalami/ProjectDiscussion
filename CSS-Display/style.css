@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: linear-gradient(to bottom right, blue, white, red); */
+}
+.wrapper {
+  display: flex;
+  /* height: 100vh; */
+  /* width: 100%, */
+  /* border: 2px solid brown; */
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.one {
+  background-color: blue;
+  /* width: 50px; */
+  flex: 1;
+  height: 100px;
+}
+.two {
+  background-color: violet;
+  /* width: 50px; */
+  flex: 2;
+  height: 100px;
+}
+.three {
+  background-color: brown;
+  /* width: 50px; */
+  flex: 3;
+  height: 100px;
+}
+
+.wrapper-grid {
+  display: grid;
+  grid-template-rows: 20vh 20vh 20vh;
+  grid-template-columns: 20vh 20vh;
+  grid-template-areas:
+    "box1 box1"
+    "box3 box2"
+    "box3 box2";
+}
+.one-grid {
+  background-color: aquamarine;
+  grid-area: box1;
+}
+.two-grid {
+  background-color: aqua;
+  grid-area: box2;
+}
+.three-grid {
+  background-color: yellow;
+  grid-area: box3;
+}
