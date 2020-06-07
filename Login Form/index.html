@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign In</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="imageContainer">
+        <img class="illustration" src="home.svg" alt="" style="width: 75%;" />
+      </div>
+      <br />
+      <div class="loginContainer">
+        <form action="/login.php" method="post" onsubmit="return validate()">
+          <img
+            src="company.png"
+            alt=""
+            style="width: 80px; margin-top: 10px;"
+          /><br />
+          <label style="font-size: 36px; font-weight: bold;">Welcome</label
+          ><br />
+          <label style="font-size: 36px; font-weight: lighter; color: darkgrey;"
+            >Sign in to Community</label
+          ><br /><br />
+          <label style="font-size: 14px; font-weight: bold;"
+            >Enter Details</label
+          ><br />
+
+          <input class="email" type="email" placeholder="Email address" />
+          <input class="pass" type="password" placeholder="Password" />
+
+          <div class="forgotPass">
+            <label style="color: #0072e4; font-size: 12px;"
+              >Forgot Password?</label
+            >
+          </div>
+          <div class="btnContainer">
+            <input class="btn" type="button" value="Login" />
+          </div>
+          <div class="account">
+            <label style="font-size: 12px;"
+              >Don't have an Account? SignUp.</label
+            >
+          </div>
+          <hr
+            style="color: lightgrey; margin-top: 20px; margin-bottom: 20px;"
+          />
+          <div class="socialLink">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-google"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
